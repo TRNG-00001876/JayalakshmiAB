@@ -51,3 +51,17 @@ CREATE TABLE Resumes (
 	drop table users;
 	drop table Resumes;
 
+	drop table JobListings;
+	create table JobListings(
+	JobID int primary key,
+	JobTitle varchar(20),
+	Companyname varchar(20),
+	Loc varchar(30),
+	experience int);
+	
+	create table Applicant(
+	Applicantid int identity(1,1)primarykey
+	Applicantname varchar(20),
+	Applicantmail varchar(30));
+
+
