@@ -1,18 +1,18 @@
 OOOPS
 
-var person={
-    name:"janani",
-    age:22,
-    gender:"F",
-    city:"chennai"
-           getName(){
-            function.name;
+// var person={
+//     name:"janani",
+//     age:22,
+//     gender:"F",
+//     city:"chennai"
+//            getName(){
+//             function.name;
 
-           } 
-    return this.name;
-}
+//            } 
+//     return this.name;
+// }
 
-}
+// }
 
 
 class Person{
