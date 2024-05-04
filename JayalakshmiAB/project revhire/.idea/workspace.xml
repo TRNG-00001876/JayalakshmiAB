@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="52d823e5-2c18-4e66-8965-1a3082125bf6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../projectpo/src/main/java/org/example/model/Applicant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consoleLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mockito.java/src/main/java/org/example/Calculatormock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mockito.java/src/main/java/org/example/Calculatormock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mockito.java/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mockito.java/src/test/java/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectpo/src/main/java/org/example/Dao/Daoimplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../projectpo/src/main/java/org/example/Dao/Daoimplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectpo/src/main/java/org/example/Dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../projectpo/src/main/java/org/example/Dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectpo/src/main/java/org/example/model/Employeereg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../projectpo/src/main/java/org/example/model/Employeereg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectpo/src/main/java/org/example/model/JobListing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../projectpo/src/main/java/org/example/model/JobListing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectpo/src/main/java/org/example/model/Resume.java" beforeDir="false" afterPath="$PROJECT_DIR$/../projectpo/src/main/java/org/example/model/Resume.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectpo/src/main/java/org/example/model/UserReg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../projectpo/src/main/java/org/example/model/UserReg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projectpo/src/main/java/org/example/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../projectpo/src/main/java/org/example/service/Service.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2fwvcuAJDCZqQxBGZrQmJknOUyw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/balaj/REV_FOLDER/Rev_Hire-master (1) (1)/Job_Portal"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52d823e5-2c18-4e66-8965-1a3082125bf6" name="Changes" comment="" />
+      <created>1714725037897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714725037897</updated>
+    </task>
+    <servers />
+  </component>
+</project>
