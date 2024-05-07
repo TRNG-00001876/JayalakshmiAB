@@ -47,37 +47,66 @@
 
 
 
-const userData=[{id:1,name:"hari",email:"hari@gmail.com"},{id:2,name:"jan",email:"jan@gmail.com"}]
-function fetchUserData1() {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            const userData = {
-                id:1,
-                name: 'hari',
-                email: 'john@example.com'
+// const userData=[{id:1,name:"hari",email:"hari@gmail.com"},{id:2,name:"jan",email:"jan@gmail.com"}]
+// function fetchUserData1() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             const userData = {
+//                 id:1,
+//                 name: 'hari',
+//                 email: 'john@example.com'
                 
-            };
-            resolve(userData);
-        }, 2000);
-    });
-}
-function displayUserData(userData) {
-    console.log("User Data:");
-    userData.forEach(user => {
-        console.log(`ID: ${user.id}, Name: ${user.name}, Email: ${user.email}`);
-    });
+//             };
+//             resolve(userData);
+//         }, 2000);
+//     });
+// }
+// function displayUserData(userData) {
+//     console.log("User Data:");
+//     userData.forEach(user => {
+//         console.log(`ID: ${user.id}, Name: ${user.name}, Email: ${user.email}`);
+//     });
+// }
+
+// async function fetchUserDataAsync() {
+//     try {
+//         const fetchedData = await new Promise(resolve => {
+//             setTimeout(() => {
+//                 resolve(userData);
+//             }, 2000);
+//         });
+//         displayUserData(fetchedData);
+//     } catch (error) {
+//         console.error("Error fetching user data:", error);
+//     }
+// }
+// fetchUserDataAsync();
+
+
+function fetchUserData() {
+    
+    const url = 'https://jsonplaceholder.typicode.com/users';
+
+    return fetch(url)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            return data;
+        })
+        .catch(error => {
+            console.error('Error fetching user data:', error);
+            throw error;
+        });
 }
 
-async function fetchUserDataAsync() {
-    try {
-        const fetchedData = await new Promise(resolve => {
-            setTimeout(() => {
-                resolve(userData);
-            }, 2000);
-        });
-        displayUserData(fetchedData);
-    } catch (error) {
-        console.error("Error fetching user data:", error);
-    }
-}
-fetchUserDataAsync();
+fetchUserData()
+    .then(userData => {
+        console.log('Fetched user data:', userData);
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
